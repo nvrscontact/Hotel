@@ -68,7 +68,7 @@ function footer() {
           <span>© Rosetti's Hotel {date} - All Rights Reserved</span>
         </address>
       </footer>  
-        <nav className='flex gap-6 pl-6 inter-200 bg-black/80 w-full py-3 text-[10px] '> 
+        <nav className='flex gap-6 pl-6 inter-200 bg-black/80 w-full py-3 text-[10px] text-white/70 '> 
           <Link href='/Support/Policy#cookies'>Cookies Policy</Link>
           <Link href='/Support/Policy#terms'>Terms of Use</Link>
           <Link href='/Support/Policy#privacy'>Privacy Policy</Link>
