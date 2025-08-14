@@ -18,8 +18,8 @@ function NavBar() {
                     <li><Link href='/' className=''>Home</Link> </li>
                   </ul>
                   <section className='space-y-3 flex flex-col text-center'>
-                   <Link href='/register' className='bg-white/10 py-2'>Register</Link>
-                   <Link href='/login' className='bg-white/10 py-2'>Login</Link>
+                   <Link href='/User/Register' className='bg-white/10 py-2'>Register</Link>
+                   <Link href='/User/Login' className='bg-white/10 py-2'>Login</Link>
                     <p className='text-white/70 text-[10px] '>
                     If you need more info visit <Link href='/Support/Support' className='border-b border-white/40'>Support</Link> </p>
                   </section>
