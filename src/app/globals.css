@@ -47,3 +47,25 @@ body {
   font-weight:600;
   font-style: normal;
 }
+
+.carousel-track {
+display:flex;
+width:max-content;
+animation: scroll-left 35s linear infinite;
+animation-timing-function: linear;
+
+}
+@media screen and (min-width:1400px){
+  .carousel-track{
+    animation-duration:35s;
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

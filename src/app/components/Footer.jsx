@@ -31,6 +31,13 @@ function footer() {
         { label: 'Restaurant', url:'/Products/Restaurant' },
       ]
      },
+     {
+        title:'Press', links: [
+        { label: 'Hotel', url:'/Products/Hotel' },
+        { label: 'Resort', url:'/Products/Resort' },
+        { label: 'Restaurant', url:'/Products/Restaurant' },
+      ]
+     },
     ]
     /* se recorre cada section de footerSections como bloque,
        se llama title, luego se accede a llamar a links,
@@ -68,7 +75,7 @@ function footer() {
           <span>© Rosetti's Hotel {date} - All Rights Reserved</span>
         </address>
       </footer>  
-        <nav className='flex gap-6 pl-6 inter-200 bg-black/80 w-full py-3 text-[10px] text-white/70 '> 
+        <nav className='flex gap-6 pl-6 inter-200 bg-black/90 w-full py-3 text-[10px] text-white/70 '> 
           <Link href='/Support/Policy#cookies'>Cookies Policy</Link>
           <Link href='/Support/Policy#terms'>Terms of Use</Link>
           <Link href='/Support/Policy#privacy'>Privacy Policy</Link>
